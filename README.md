@@ -97,13 +97,9 @@ The training process completed in approximately 1.978 hours. The final results a
 ## Visualizations
 
 ### Confusion Matrix Normalized
-![Confusion Matrix](path/to/confusion_matrix.png)
-
 The confusion matrix provides insights into the classification performance of the model. Each cell represents the proportion of instances that were predicted to belong to a particular class when they actually belonged to another class.
 
 ### Training and Validation Metrics
-![Training Metrics](path/to/training_metrics.png)
-
 These graphs show the evolution of various metrics during the training process, including losses, precision, recall, and mAP scores. The smooth lines represent smoothed versions of the raw data points.
 
 ## Usage
@@ -116,7 +112,3 @@ To use this model, follow these steps:
 
 ## Conclusion
 This project demonstrates the effectiveness of the YOLO11n model in detecting various objects within a warehouse environment. The high precision, recall, and mAP scores indicate that the model performs well across different classes. Future work could involve further fine-tuning the model and expanding the dataset to improve performance even more.
-
----
-
-Make sure to replace `path/to/confusion_matrix.png` and `path/to/training_metrics.png` with the actual paths to your images in the repository.
